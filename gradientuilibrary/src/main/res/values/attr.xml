@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="top_icon" format="reference" />
+    <attr name="bottom_icon" format="reference" />
+
+    <declare-styleable name="GradientIconView">
+        <attr name="top_icon" />
+        <attr name="bottom_icon" />
+    </declare-styleable>
+
+    <attr name="text" format="string" />
+    <attr name="text_size" format="dimension" />
+    <attr name="top_text_color" format="color" />
+    <attr name="bottom_text_color" format="color" />
+
+    <declare-styleable name="GradientTextView">
+        <attr name="text" />
+        <attr name="text_size" />
+        <attr name="top_text_color" />
+        <attr name="bottom_text_color" />
+    </declare-styleable>
+</resources>
