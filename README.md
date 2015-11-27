@@ -1,6 +1,3 @@
-# 运行效果图
-![](https://github.com/wangdong20/First-android-repository/blob/master/wechatsample.gif)
-
 # Qucik Setup
 ## 1. Include library
 ### Using AndroidStudio
@@ -62,3 +59,6 @@ And it will show bottom textcolor completely like this:
 ```
 gradientTextView.setTextViewAlpha(0);
 ```
+
+## 3. Running effect
+![](https://github.com/wangdong20/First-android-repository/blob/master/wechatsample.gif)
