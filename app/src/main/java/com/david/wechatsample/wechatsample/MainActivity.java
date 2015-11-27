@@ -13,8 +13,8 @@ import com.david.wechatsample.fragment.ChatsFragment;
 import com.david.wechatsample.fragment.ContactsFragment;
 import com.david.wechatsample.fragment.DiscoverFragment;
 import com.david.wechatsample.fragment.OnFragmentInteractionListener;
-import com.david.wechatsample.gradientuilibrary.GradientIconView;
-import com.david.wechatsample.gradientuilibrary.GradientTextView;
+import com.david.gradientuilibrary.GradientIconView;
+import com.david.gradientuilibrary.GradientTextView;
 
 import java.util.ArrayList;
 import java.util.List;

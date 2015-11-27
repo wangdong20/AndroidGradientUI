@@ -1,4 +1,4 @@
-package com.david.wechatsample.gradientuilibrary;
+package com.david.gradientuilibrary;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,7 +12,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 /**
- * Created by Administrator on 2015/10/21.
+ * Created by David Wong on 2015/10/21.
  */
 public class GradientTextView extends FrameLayout {
 
@@ -37,7 +37,7 @@ public class GradientTextView extends FrameLayout {
 
         initView(context);
 
-        // 获取设置的图标
+        // Get attributes
         TypedArray a = context.obtainStyledAttributes(attrs,
                 R.styleable.GradientTextView);
 

@@ -33,14 +33,14 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.david.wechatsample.gradientuilibrary.GradientIconView
+            <com.david.gradientuilibrary.GradientIconView
                 android:id="@+id/id_iconfont_chat"
                 app:bottom_icon="@mipmap/chats"
                 app:top_icon="@mipmap/chats_green"
                 android:layout_width="40dp"
                 android:layout_height="35dp" />
 
-            <com.david.wechatsample.gradientuilibrary.GradientTextView
+            <com.david.gradientuilibrary.GradientTextView
                 android:id="@+id/id_chats_tv"
                 app:bottom_text_color="@color/tab_text_gray"
                 app:text="@string/chats"
@@ -58,14 +58,14 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.david.wechatsample.gradientuilibrary.GradientIconView
+            <com.david.gradientuilibrary.GradientIconView
                 android:id="@+id/id_iconfont_friend"
                 app:bottom_icon="@mipmap/contacts"
                 app:top_icon="@mipmap/contacts_green"
                 android:layout_width="40dp"
                 android:layout_height="35dp" />
 
-            <com.david.wechatsample.gradientuilibrary.GradientTextView
+            <com.david.gradientuilibrary.GradientTextView
                 android:id="@+id/id_contacts_tv"
                 app:bottom_text_color="@color/tab_text_gray"
                 app:text="@string/contacts"
@@ -83,14 +83,14 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.david.wechatsample.gradientuilibrary.GradientIconView
+            <com.david.gradientuilibrary.GradientIconView
                 android:id="@+id/id_iconfont_faxian"
                 app:bottom_icon="@mipmap/discover"
                 app:top_icon="@mipmap/discover_green"
                 android:layout_width="40dp"
                 android:layout_height="35dp" />
 
-            <com.david.wechatsample.gradientuilibrary.GradientTextView
+            <com.david.gradientuilibrary.GradientTextView
                 android:id="@+id/id_discover_tv"
                 app:bottom_text_color="@color/tab_text_gray"
                 app:text="@string/discover"
@@ -108,14 +108,14 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.david.wechatsample.gradientuilibrary.GradientIconView
+            <com.david.gradientuilibrary.GradientIconView
                 android:id="@+id/id_iconfont_me"
                 app:bottom_icon="@mipmap/about_me"
                 app:top_icon="@mipmap/about_me_green"
                 android:layout_width="40dp"
                 android:layout_height="35dp" />
 
-            <com.david.wechatsample.gradientuilibrary.GradientTextView
+            <com.david.gradientuilibrary.GradientTextView
                 android:id="@+id/id_about_me_tv"
                 app:bottom_text_color="@color/tab_text_gray"
                 app:text="@string/me"
