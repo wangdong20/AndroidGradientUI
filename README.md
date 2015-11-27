@@ -12,12 +12,12 @@ dependencies {
 ### GradientIconView
 
 First the custom attribute should declare in xml like this:
-```
+```xml
 xmlns:app="http://schemas.android.com/apk/res-auto"
 ```
 
 Then you can add GradientIconView in layout.xml
-```
+```xml
 <com.david.gradientuilibrary.GradientIconView
     android:id="@+id/id_iconfont_chat"
     app:bottom_icon="@mipmap/chats"
@@ -28,18 +28,18 @@ Then you can add GradientIconView in layout.xml
 
 The **GradientIconView** can **gradient change** itself from top_icon to bottom_icon.
 GradientIconView will show top icon completely like this:
-```
+```java
 gradientIconView.setIconAlpha(1.0f);
 ```
 And it will show bottom icon completely like this:
-```
+```java
 gradientIconView.setIconAlpha(0);
 ```
 
 ### GradientTextView
 
 You can add GradientTextView in layout.xml like this.
-```
+```xml
 <com.david.gradientuilibrary.GradientTextView
     android:id="@+id/id_chats_tv"
     app:bottom_text_color="@color/tab_text_gray"
@@ -52,11 +52,11 @@ You can add GradientTextView in layout.xml like this.
 
 The **GradientTextView** can **gradient change** itself textcolor from top_text_color to bottom_text_color.
 GradientIconView will show top textcolor completely like this:
-```
+```java
 gradientTextView.setTextViewAlpha(1.0f);
 ```
 And it will show bottom textcolor completely like this:
-```
+```java
 gradientTextView.setTextViewAlpha(0);
 ```
 
