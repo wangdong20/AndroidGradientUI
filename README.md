@@ -1,4 +1,4 @@
-# Qucik Setup
+# Quick Setup
 ## 1. Include library
 ### Using AndroidStudio
 Edit your **build.gradle** file and add below dependency:
